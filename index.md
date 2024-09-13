@@ -1,17 +1,13 @@
 ---
-title: Lesson Template
+title: Workshop Overview
 layout: lesson-content
 ---
 
-A minimal Jekyll theme with sidebar content nav for creating lesson and workshop websites using Markdown.
+Digital Scholarship Foundations is a series of library workshops led by Digital Scholarship Services (DiScho).
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
-*Add your workshop abstract here!*
-
-Learn how to create a super quick easy website for a workshop by writing a few markdown files! 
-Host it for free on GitHub with gh-pages, and share!
-Fun!
+Our fall program is centered around websites to develop fundamental skills necessary for successful digital projects. We’ll look under the hood of a website to demystify the anatomy of the web and explore how to build critical and sustainable projects. Participants will attend four workshops and use common digital tools and methods as they construct their own website. During these sessions we will learn about version control, metadata, web publishing, and more.
 
 {% include toc.html %}
 
