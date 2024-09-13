@@ -1,5 +1,5 @@
 ---
-section: Get Started
+section: Course Materials
 nav_order: 3
 title: Basic Configuration
 topics: Site options; _config.yml

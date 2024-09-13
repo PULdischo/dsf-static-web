@@ -1,5 +1,5 @@
 ---
-section: Get Started
+section: Course Materials
 nav_order: 2
 title: Create Project
 topics: Template; Basic Config
