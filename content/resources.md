@@ -1,15 +1,9 @@
 ---
 nav_order: 5
-title: Reference & Resources
+title: Resources
 ---
 
-To learn about using Lesson Template, the content pages of this demo provide documentation and examples (also check the [README](https://github.com/learn-static/lesson-template/blob/main/README.md)).
-
-Workshop sites using this template:
-
-- [Demo](https://learn-static.github.io/lesson-template/) (this repository) 
-
-# Reference
+Below are resources that can provide additional support during and after our workshop series.
 
 ## Git & GitHub
 

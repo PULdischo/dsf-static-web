@@ -1,105 +1,24 @@
-# lesson-template
+# Digital Scholarship Foundations Static Website Series
 
-Learn-Static Lesson Template is a minimal [Jekyll](https://jekyllrb.com/) project to create a simple lesson, workshop, or documentation website, with a [Bootstrap](https://getbootstrap.com/)-based theme, designed for hosting on [GitHub Pages](https://pages.github.com/).
-It features a sidebar navigation providing clear structure for step by step content.
-The sidebar nav supports pages nested into sections to help organize your lesson content. 
+## Workshop Overview
 
-All content is written using basic Markdown, making it simple to write, edit, and reuse lesson materials.
-The template provides Liquid includes to simplify adding Bootstrap components to your pages.
-Writing content in this simple, reuseable format makes for a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources) since anyone can make a copy and adapt.
+Digital Scholarship Foundations is a series of library workshops led by [Digital Scholarship Services (DiScho)](https://library.princeton.edu/services/digital-scholarship).
 
-Visit the [demo site](https://learn-static.github.io/lesson-template/) to view example output on GitHub Pages and basic documentation.
-To use Lesson Template to create your own website --> make a copy and replace the template content with your own!
+Our fall program is centered around websites to develop fundamental skills necessary for successful digital projects. We’ll look under the hood of a website to demystify the anatomy of the web and explore how to build critical and sustainable projects. Participants will attend four workshops and use common digital tools and methods as they construct their own website. During these sessions we will learn about version control, metadata, web publishing, and more.
 
-## How To Use Template
+## Digital Scholarship at PUL
 
-The [lesson-template repository](https://github.com/learn-static/lesson-template) is a template project --> to get started quickly, make a copy and replace the demo with your own content and customizations. 
-The content pages serve as documentation and examples to copy from.
+DiScho offers [regular programming](https://library.princeton.edu/services/digital-scholarship/digital-scholarship-workshops-and-events) every semester that focus on data, digital publishing, and more. Our colleagues in the library also [offer workshops](https://libcal.princeton.edu/calendar?cid=-1&t=d&d=0000-00-00&cal=-1&inc=0) that may be of interest to digital scholarship practitioners.
 
-Overview: 
+Want to talk about your digital project or a tool? Visit [our webpage](https://library.princeton.edu/services/digital-scholarship) to request a consultation. 
 
-1. Click the green "Use this template" button on the [lesson-template repository](https://github.com/learn-static/lesson-template) to make your own new copy of the code (make sure you are logged into GitHub!).
-2. Work on the GitHub web interface or clone to your local machine to edit files (tip: click `.` on any GitHub repository to [open the web editor](https://docs.github.com/en/codespaces/the-githubdev-web-based-editor)).
-3. Edit the "_config.yml" file with your info (see [Basic Configuration](https://learn-static.github.io/lesson-template/content/start/configure.html)).
-4. Edit/add the content pages in Markdown found in the "content" folder (see [Page Set Up](https://learn-static.github.io/lesson-template/content/docs/pages.html)).
-5. Add any images to the "images" folder.
-5. Commit on the web interface or push to GitHub from your local machine.
-6. In your repository's settings, activate GitHub Pages, using main branch.
+## Credits
 
-## Creating Content
+Created by Bryan Winston, Digital Scholarship Specialist, Princeton University Library.
 
-Content follows these conventions:
+The weekly sessions borrow from [Learn-Static](https://learn-static.github.io/). Their [modules](https://learn-static.github.io/modules/) and [templates](https://learn-static.github.io/templates/) are great for developing your own curriculum or pursuing asynchronous learning. [Evan Will's go-go gh-pages](https://evanwill.github.io/go-go-ghpages-b/) is a related project that also includes materials that have shaped this series.
 
-- All documentation files are written in Markdown. For clearer version control, editing, accessibility, and reusability please:
-    - write one sentence per line.
-    - always provide a blank line between elements (i.e. headers, paragraphs, lists, code blocks are always followed by a blank line).
-    - headers should follow logical order on page without skipping levels. The page template includes an "h1" using the `title` set in the front matter--thus additional headers on the page should start at "h2", i.e. `##` in markdown.
-    - code and variables should be given `code` class using backticks, filenames should be given in "quotes".
-- Markdown files are located in the "content" folder and can be further organized into folders inside if desired.
-
-## Create Navigation 
-
-The sidebar navigation menu is controlled by front matter added to each page. 
-There are two ways a page can appear in the nav: individual or in a section drop down.
-
-The nav follows these rules:
-
-- **Individual listing:** To list a page in the nav individually, add `nav_order` to the front matter of a content page. e.g. `nav_order: 1`. Do *not* include `section_id` or `section` in the front matter.
-- **Section dropdown:** To create a "section" drop down, on the first content page of the section, add `nav_order` and `section_id` to the front matter. The value of `section_id` will be displayed as the label for the section drop down. e.g. `section_id: Workshop Prep`. The page's title will be listed as the first item in the section dropdown.
-- **Section pages:** To add additional pages to the section dropdown, add `section` and `nav_order` to the front matter of a markdown file. The value of `section` must match a `section_id` set up on another markdown file. The page's title will appear under the corresponding section dropdown. The pages in the section will sort according to `nav_order` within the section--however, the page that sets up the section (with `section_id`) will always be listed first. 
-
-Note: 
-
-- The nav listings (individual pages and sections) will be sorted by the value of `nav_order`.
-- If a markdown stub does not have `nav_order` *or* `section` in the front matter, the page will **not** appear anywhere in the navigation. Occasionally you might want to create pages that aren't linked in the nav, just be sure to link to them from somewhere else!
-- The values of `section_id` / `section` should be unique. If you create multiple sections with the same name, the nav won't work as expected!
-
-### Example Front Matter
-
-Individual listing:
-
-```
----
-nav_order: 1
-title: Introduction
----
-```
-
-Section lead:
-
-```
----
-section_id: Getting Started
-nav_order: 3
-title: Install Git and GitHub Desktop
----
-```
-
-Section content:
-
-```
----
-section: Getting Started
-nav_order: 2
-title: Configure Git
----
-```
-
-## Template Assets 
-
-This repository does not include a Gemfile because it is a very simple project. 
-It was originally built using Ruby 2.5+ and Jekyll 3.7+; most recently used Ruby 3 and Jekyll 4.3.2.
-It is designed to work with [GitHub Pages automatic build versions](https://pages.github.com/versions/).
-
-The template makes use of a variety of open source libraries. 
-These files are included in the 'assets/lib/" folder to ensure the project remains fully self contained.
-These assets include:
-
-- [Bootstrap](https://getbootstrap.com/) v5.3.2
-- [Bootstrap Icons](https://icons.getbootstrap.com/) v1.11.0
-- [lunr.js](https://lunrjs.com/) 
-- [lazysizes](https://github.com/aFarkas/lazysizes)
-- [spotlight gallery](https://github.com/nextapps-de/spotlight)
+This website was built with the "Learn-Static Lesson Template", evanwill, 2022, https://learn-static.github.io/lesson-template/.
 
 ## License
 

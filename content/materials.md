@@ -19,6 +19,8 @@ We've collected and listed the materials you will need to succeed in this series
 
 ## Research Materials
 
+You will need to bring research materials to this course to successfully build a prototype of your project. These materials do not need to be perfect or complete by the start of our sessions. Our goal is create a proof-of-concept, not a highly polished and completed project.
+
 `Research objects:` These can be image files, PDFs, mp3s, etc. You can have as few as 5-10 objects to build a successful prototype.
 
 `Metadata:` Metadata is data about data. You will need information about your research objects such as title, author/creator, object description, location of origin, and potentially more depending on your project vision.
