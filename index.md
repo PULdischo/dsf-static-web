@@ -3,7 +3,7 @@ title: Workshop Overview
 layout: lesson-content
 ---
 
-Digital Scholarship Foundations is a series of library workshops led by Digital Scholarship Services (DiScho).
+Digital Scholarship Foundations is a series of library workshops led by [Digital Scholarship Services (DiScho)](https://library.princeton.edu/services/digital-scholarship).
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
