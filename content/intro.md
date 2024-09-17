@@ -28,7 +28,7 @@ By focusing on learning the underlying skills that ensure the success and sustai
 
 Briefly, a static site is a collection of HTML, CSS, and JS files that are served to a user without dynamic changes. Evan Will suggests "you can think of a static site as a shared folder of readonly files exposed on the web" in his [Introduction to Static Web and Jekyll](https://evanwill.github.io/go-go-ghpages-b/content/2-jekyll.html). This may seem a little abstract now, but by the end of our series you will be able to confidently answer the question: What is a static site? 
 
-Our series will explore the benefits and limitations of static sites, while introducing you to the skills and tools that make it possible to create your own sustainable website.
+Our series will explore the benefits and limitations of static sites, while introducing you to the skills and tools that make it possible to create your own sustainable website. We will begin the the series semi-agnostic with our tool usage, but our sessions will culminate in everyone using [CollectionBuilder](https://collectionbuilder.github.io/), which is a digital exhibition framework that uses static web technology.
 
 ## Credits
 

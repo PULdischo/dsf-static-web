@@ -15,6 +15,8 @@ We've collected and listed the materials you will need to succeed in this series
 
 `Google Sheets:` We will avoid Excel and build metadata spreadsheets in Google Sheets.
 
+`CollectionBuilder:` [CollectionBuilder](https://collectionbuilder.github.io/) is an open source framework for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
+
 `A Development Environment:` To limit confusion we will share more about this later in the series.
 
 ## Research Materials

@@ -1,7 +1,7 @@
 ---
 section_id: Workshop Sessions
 nav_order: 3
-title: Week 1
+title: Week 1. GitHub And Getting to Know Your Computer
 topics: Version Control; Repositories; Cloning 
 ---
 
