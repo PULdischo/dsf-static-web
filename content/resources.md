@@ -7,7 +7,7 @@ Below are resources that can provide additional support during and after our wor
 
 ## Workshop Session Slideshows
 
-Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.google.com/presentation/d/18tWraQtlgoSq6CZRm3k9vQdRK8ABi-vkwz7cS3sG3Y0/edit?usp=sharing) or [PDF Download](content/slideshows/week-1-overview-github.pdf)
+Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.google.com/presentation/d/18tWraQtlgoSq6CZRm3k9vQdRK8ABi-vkwz7cS3sG3Y0/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-1-overview-github.pdf)
 
 ## Git & GitHub
 
