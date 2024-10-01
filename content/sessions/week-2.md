@@ -7,16 +7,26 @@ topics: Text Editors; Authoring Web Content; Markup Languages
 
 ## Learning Objectives
 
-- Become familiar with your text editor (VS Code).
+- Review Git and GitHub
 - Learn about some of the building blocks of the web.
+- Become familiar with your text editor (VS Code).
 - Write with Markdown.
 - Learn some best practices for file naming and metadata.
 
-## The Web, HTML, and Plain Text
-Quick blurb and later link to slideshow
+## The Web and Markup Languages
+We will explore the building blocks of websites and learn some basics of markup languages. Our focus will be on:
+
+- The anatomy of a URL
+- Markup languages and how they operate.
+
+We will use [dillinger.io](https://dillinger.io/) to explore the relationship between markdown, html, and your web browser.
+
+The accompanying slideshow will be made available after our session.
 
 ## Getting to Know Your Text Editor
-Quick blurb and later link to slide show
+While any text editor is welcome, we recommend [Visual Studio Code](https://code.visualstudio.com/) for this workshop series. VS code is commonly used and has a lower barrier to entry. Plus its free! If you haven't already, please [download VS Code](https://code.visualstudio.com/Download).
+
+Text editors allow you to easily read and edit plain text files like the ones we will use to build a website in this course. We will hold a live demo to explore the basics of VS Code and continue using the text editor throughout our series.
 
 ## Introduction to Markdown
 
@@ -51,7 +61,7 @@ To learn how to use other parts of the Markdown syntax not covered here visit [M
 
 1. Use GitHub Desktop to create a new GitHub repository or to access the repository we used at our last session.
 2. Use GH Desktop to navigate to VS Code. At the top level of your repository, locate and click the "new file" button, situated to the right of your repository's name.
-3. A blank box will open in the VS Code explore which will give you the option to name your file. Give your file the name `index.md`. 
+3. A blank box will open in the VS Code explorer which will give you the option to name your file. Give your file the name `index.md`. 
 4. Save and add a commit message to the "Commit changes" box at the bottom of the page, then click the green "Commit changes" button to save your new Markdown file.
 
 ---
@@ -89,7 +99,7 @@ Make sure to organize your headings in hierarchical order (i.e. always nest Head
 ##### Practice Using Headings
 
 1. From the base of your repository, click on the `index.md` link to open the file.
-2. In the first line of your `index.md` file, add a Heading 1 that reads, `# Yōkai Senjafuda: Stories about Ghosts and Monsters`
+2. In the first line of your `index.md` file, add a Heading 1 that is the title of your project or reads, `# My Digital Exhibit: Sharing My Research`
 3. On line 3, add a Heading 2 that reads, `## Section 1`
 4. On line 4, add a Heading 2 that reads, `## Section 2`
 5. To see how your headings will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -113,31 +123,21 @@ Splitting the sentences can make editing and version control easier.
 **Markdown file view**:
 
 ```
-This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. 
-Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries).
-
-The phenomenon of senjafuda dates back to the late 18th century.
+This is an early foray into learning more about Latin American writers with materials held in Princeton University Library Special and Distinct Collections. The project began with  a list of collections  (and their linked finding aids) produced in a research guide by Fernando Acosta-Rodríguez, Librarian for Latin American, Iberian and Latino Studies at Princeton University.
 ```
 
 **Front end view**: 
 
-This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. 
-Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries)..
-
-The phenomenon of senjafuda dates back to the late 18th century. 
+This is an early foray into learning more about Latin American writers with materials held in Princeton University Library Special and Distinct Collections. The project began with  a list of collections  (and their linked finding aids) produced in a research guide by Fernando Acosta-Rodríguez, Librarian for Latin American, Iberian and Latino Studies at Princeton University. 
 
 ##### Practice Using Paragraphs
 
-1. Copy the following paragraphs and line breaks and paste them underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
+1. Add your own text about your project or opy the following paragraphs and line breaks and paste them underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
 
 ```
-This digital exhibition focuses on tiny slips of paper—senjafuda 千社札—that depict Japanese ghosts and monsters—yōkai 妖怪. Both senjafuda and yōkai have their roots in Japanese popular culture in the early modern period (17th-19th centuries), and both continue to cast a spell on viewers today.
+This is an early foray into learning more about Latin American writers with materials held in Princeton University Library Special and Distinct Collections. The project began with  a list of collections  (and their linked finding aids) produced in a research guide by Fernando Acosta-Rodríguez, Librarian for Latin American, Iberian and Latino Studies at Princeton University. 
 
-The phenomenon of senjafuda dates back to the late 18th century. They were originally made by pilgrims to paste on the walls of temples and shrines as a sort of devotional graffiti. Later they became collector’s items, and by the middle of the 19th century they had become miniature masterpieces of woodblock printed art. Senjafuda depict a dizzying variety of themes with meticulous craftsmanship and vivid, stylish graphic design.
-
-Yōkai simply means “monster,” but it’s best understood as referring specifically to monsters (and sometimes ghosts) as imagined in early modern Japan, particularly as depicted in wood-block prints. From Mizuki Shigeru to Studio Ghibli, from The Ring to Yōkai Watch, Japanese popular culture (including anime, manga, books, and film) is full of yōkai imagery.
-
-The University of Oregon’s collection of senjafuda is one of the largest in the world. It includes many senjafuda depicting yōkai. This exhibit uses senjafuda to explore yōkai culture, and yōkai to explore senjafuda culture.
+Rather than beginning this project with a deep dive into the archives, I decided to experiment with building a new corpus by starting with author names listed in the collection title and then linking these information from Wikidata to those names. What resulted was a small, yet useful dataset with demographic information about some of the Latin American writers present in the archives here..
 ```
 
 2. To see how your paragraphs will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your paragraphs will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -160,14 +160,14 @@ Again, the asterisks won't be visible on your webpage, but your text will appear
 
 ##### Practice Using Emphasis
 
-1. Copy the following text and line breaks and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
+1. Mimic or copy the following text and line breaks and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
 
 ```
-*senjafuda 千社札*
+*Elena Garro*
 
-**yōkai 妖怪**
+**Tlatelolco Massacre, 1968**
 
-***The University of Oregon’s collection of senjafuda is one of the largest in the world.***
+***Controversy surrounded Garro during the Mexican student movement of the 1960s. The government accused her of instigating the student movement that threatened the power of the long standing Mexican ruling party, the PRI. At the same time, some members of the movement accused Garro of betraying the movement to the government following the massacre at Tlatelolco in 1968.***
 ```
 
 2. To see how your emphasized text will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your emphasized text will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -193,25 +193,25 @@ A numbered list is created using a number followed by a period (`.`) in front of
 
 ##### Practice Using Lists
 
-1. Copy the following list and paste it underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
+1. Mimic or copy the following list and paste it underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
 
 ```
-Digital collections used in the "Yōkai Senjafuda: Stories about Ghosts and Monsters" digital exhibit:
+Digital collections used in the "Latin American Writers at Princeton" digital exhibit:
 
-1. The Star Collection
-2. The Shōbundō collection
+1. Idea Vilariño Papers
+2. Julio Cortázar Papers
 ```
 
-2. Copy the following list and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
+2. Mimic or copy the following list and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
 
 ```
-Categories of ghosts and monsters found in the "Yōkai Senjafuda: Stories about Ghosts and Monsters" digital exhibit:
+Types of objects found in the "Latin American Writers at Princeton" digital exhibit:
 
-- Kappas
-- Oni
-- Cats
-- Foxes
-- Tengu
+- Books
+- Journals
+- Postcards
+- Photographs
+- Correspondence
 ```
 
 3. To see how your lists will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your lists will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -229,7 +229,7 @@ To link to another page or site, insert the link title (what you want displayed 
 1. Copy the following hyperlink and paste it underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
 
 ```
-[Yōkai Senjafuda Digital Exhibit](https://glam.uoregon.edu/yokaisenjafuda/page/welcome)
+[Archives of Latin American Writers and Intellectuals in Special Collections](https://libguides.princeton.edu/latinammss)
 ```
 
 2. To see how your hyperlink will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your hyperlink will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -248,7 +248,7 @@ Add an image to your webpage using the following formula:
 
 #### Practice Adding Images
 
-1. Copy the following image code and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
+1. Mimic or copy the following image code and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
 
 ```
 ![Image of a woman in a kimono dancing. Flames are falling around her and decorative fan shapes are above her.](https://oregondigital.org/downloads/oregondigital:df728t07k)"Kabuki scene with young female dancing"
@@ -276,10 +276,10 @@ Displays as:
 > Block quote.
 > Continuing the quote.
 
-1. Copy the following block quote code and paste it underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
+1. Mimic or copy the following block quote code and paste it underneath the heading `## Section 1` in your `index.md` file. Make sure to leave a blank line between the Section 1 heading and the following text:
 
 ```
-> Frederick Starr (1858-1933) was an American anthropologist at the University of Chicago who visited Japan frequently between 1904 and 1933.
+> Nineteen countries are represented as birthplaces of Latin American writers in the collections. Argentina, Cuba, and Mexico are the primary origins of the writers here.
 ```
 
 2. To see how your block quote will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your block quote will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -291,26 +291,44 @@ Displays as:
 Congratulations, you've just finished creating your first Markdown document!
 
 1. Save your `index.md` file.
-2. Click source control on the left side of your VS Code window. 
-3. To the right of change, click the `+` sign to stage your changes.
+2. Select your GitHub Desktop Client. 
+3. Review changes. Make sure there is only one file in your changes window.
 4. Type a commit message into the text box above the "commit" button.
-3. Click the "commit" button to save your changes.
+5. Click the "commit" button to save your changes.
+6. Right click your markdown document in the VS Code explorer and select `open preview` to view your document as html.
+
+### Step 10. Push to Remote
+
+1. Find `push origin` either in the top bar or the blue button in the main viewer of your GitHub Desktop client.
+2. Click `push origin`.
+3. Go to remote repository and confirm succesful push.
 
 ---
 
-### Further Learning
-
-**Ready to continue on in the Learn-Static sequence?**
-Next up is [foundations-3-data](https://github.com/learn-static/foundations-3-data).
-
-**Interested in learning more about Markdown?**
-Check out these external resources:
+### Markdown Resources
 
 - [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 - [Github Guides: Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
 
 ## File Naming and Metadata Best Practices
+
+Following best practices make us good citizens within the user communities we join and facilitate the sustainability of our digital projects. For this workshop series, we need to follow the best practices or conventions shared by the CollectionBuilder team. 
+
+### CB File Naming Conventions
+
+- all lowercase
+- no spaces
+- no special characters (undercscores `_` are ok)
+
+### CB Metadata Best Practices
+
+- Don't use Excel to create or open your metadata spreadsheet
+- Use UTF-8 encoding
+- Strip extra white space
+- Use a semicolon to separate multiple values within a field
+
+To explore CB's conventions further, review their [object](https://collectionbuilder.github.io/cb-docs/docs/objects/gh-objects/) and [metadata](https://collectionbuilder.github.io/cb-docs/docs/metadata/) guidelines for the CollectionBuilder GitHub Pages Template.
 
 ## Homework
 Collect your objects, place those objects in a folder on your hard drive, and apply file naming best practices to your objects.
