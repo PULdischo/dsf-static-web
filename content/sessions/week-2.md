@@ -94,12 +94,12 @@ Two `##` indicates Heading 2, which is slightly smaller than Heading 1:
 Three `###` indicates Heading 3, and so on.
 
 Make sure to organize your headings in hierarchical order (i.e. always nest Heading 2 underneath Heading 1, etc.) to ensure your webpage is readable and accessible.
-(To learn more about headings and web accessibility visit [A11y styleguide - Structure](https://a11y-style-guide.com/style-guide/section-structure.html)).
+(To learn more about headings and web accessibility visit [A11y style guide - Structure](https://a11y-style-guide.com/style-guide/section-structure.html)).
 
 ##### Practice Using Headings
 
 1. From the base of your repository, click on the `index.md` link to open the file.
-2. In the first line of your `index.md` file, add a Heading 1 that is the title of your project or reads, `# My Digital Exhibit: Sharing My Research`
+2. In the first line of your `index.md` file, add a Heading 1 that is the title of your project or reads, `# Latin American Writers at Princeton`
 3. On line 3, add a Heading 2 that reads, `## Section 1`
 4. On line 4, add a Heading 2 that reads, `## Section 2`
 5. To see how your headings will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your headings will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -251,7 +251,7 @@ Add an image to your webpage using the following formula:
 1. Mimic or copy the following image code and paste it underneath the heading `## Section 2` in your `index.md` file. Make sure to leave a blank line between the Section 2 heading and the following text:
 
 ```
-![Image of a woman in a kimono dancing. Flames are falling around her and decorative fan shapes are above her.](https://oregondigital.org/downloads/oregondigital:df728t07k)"Kabuki scene with young female dancing"
+![Half-length, stylized portrait of Cortázar leaning on table with arms crossed, gazing out at viewer..](http://lgimages.s3.amazonaws.com/data/imagemanager/10890/julio_silva_of_julio_cortazr.jpg)"Illustration:  Julio Silva (born 1930), Julio Cortázar, 1991."
 ```
 
 2. To see how your image will look once you commit your file, you can "preview" the file: Near the top of the file you're editing, locate and click on the "Preview" tab (to the right of the "Edit File" tab). Preview mode will allow you to see how your image will render on a webpage. When you're satisfied with the preview and ready to get back to editing, click on the "Edit File" tab.
@@ -301,7 +301,7 @@ Congratulations, you've just finished creating your first Markdown document!
 
 1. Find `push origin` either in the top bar or the blue button in the main viewer of your GitHub Desktop client.
 2. Click `push origin`.
-3. Go to remote repository and confirm succesful push.
+3. Go to remote repository and confirm successful push.
 
 ---
 
