@@ -30,6 +30,17 @@ Briefly, a static site is a collection of HTML, CSS, and JS files that are serve
 
 Our series will explore the benefits and limitations of static sites, while introducing you to the skills and tools that make it possible to create your own sustainable website. We will begin the the series semi-agnostic with our tool usage, but our sessions will culminate in everyone using [CollectionBuilder](https://collectionbuilder.github.io/), which is a digital exhibition framework that uses static web technology.
 
+## Fall Schedule
+
+Session Type | Date | Title | Key Themes
+--- | --- | :---: | :---:
+Workshop | September 18 | GitHub and Getting to Know Your Computer | Version control; text editors; file directories |
+Workshop | October 2 | Markdown and Data | Authoring web content; data management; markup languages
+Office Hours (optional) | October 9 | Office Hours (optional) | Work on your project and troubleshoot issues
+Workshop | October 30 | Site Building Basics | GitHub Pages; hosting; publication
+Office Hours (optional) | November 6 | Office Hours (optional) | Work on your project and troubleshoot issues
+Workshop | November 13 | Advanced Building and Basic Computational Methods | Customization; introductory coding; publication
+
 ## Credits
 
 The weekly sessions borrow from [Learn-Static](https://learn-static.github.io/). Their [modules](https://learn-static.github.io/modules/) and [templates](https://learn-static.github.io/templates/) are great for developing your own curriculum or pursuing asynchronous learning. [Evan Will's go-go gh-pages](https://evanwill.github.io/go-go-ghpages-b/) is a related project that also includes materials that have shaped this series.
