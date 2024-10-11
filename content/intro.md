@@ -33,13 +33,14 @@ Our series will explore the benefits and limitations of static sites, while intr
 ## Fall Schedule
 
 Session Type | Date | Title | Key Themes
---- | --- | :---: | :---:
+--- | --- | --- | ---
 Workshop | September 18 | GitHub and Getting to Know Your Computer | Version control; text editors; file directories |
-Workshop | October 2 | Markdown and Data | Authoring web content; data management; markup languages
+Workshop | October 2 | The Web, Markdown, and Data | Authoring web content; data management; markup languages
 Office Hours (optional) | October 9 | Office Hours (optional) | Work on your project and troubleshoot issues
 Workshop | October 30 | Site Building Basics | GitHub Pages; hosting; publication
 Office Hours (optional) | November 6 | Office Hours (optional) | Work on your project and troubleshoot issues
 Workshop | November 13 | Advanced Building and Basic Computational Methods | Customization; introductory coding; publication
+{:.table .table-bordered}
 
 ## Credits
 
