@@ -11,7 +11,7 @@ Week 1: GitHub and Getting to Know Your Computer: [Google Slides](https://docs.g
 
 Week 2: The Web, Markdown, and Data: [Google Slides](https://docs.google.com/presentation/d/1ovPxnceUs9u_-wsv0J_GyyN2xAGE39bNFI9dBkeOPOY/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-2-web-markdown-data.pdf)
 
-Week 3: [Google Slides](https://docs.google.com/presentation/d/1BkUFoDdQwLynXRHVNME7px1d3gkWHnlOI6wXT05WbZ8/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/content/slideshows/week-3-collectionbuilder-local-dev.pdf)
+Week 3: CollectionBuilder and Local Development: [Google Slides](https://docs.google.com/presentation/d/1BkUFoDdQwLynXRHVNME7px1d3gkWHnlOI6wXT05WbZ8/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-3-collectionbuilder-local-dev.pdf)
 
 ## Git & GitHub
 
