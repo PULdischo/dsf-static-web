@@ -50,12 +50,12 @@ We will address some of the key areas of CollectionBuilder site customization to
     - Who you and your team are.
 7. Add an image using an the `image.html` include:
     - Identify an image you want to highlight on this page and record the objectid.
-    - Copy the include code block: `{% include feature/image.html objectid=yourid width="50" %}` and paste it above the `## About the Collection` header.
+    - Copy the include code block: `{% raw %}{% include feature/image.html objectid=yourid width="50" %}{% endraw %}` and paste it above the `## About the Collection` header.
     - edit the `objectid` key by changing the value to the right of the `=` sign. This should be an objectid from your metadata, such as latam001. (Tip: Remember what we discussed earlier about key-value pairs)
     - You can also change how much space the image takes up on your page by editing the value of the `width` key.
 8.  Add a card using the `card.html` include:
     - Identify an image that will work well in a card and record the objectid.
-    - Copy the include code block: `{% include feature/card.html header="This is a Card" text="The card features an image from the collection as a cap" objectid="demo_001" width="25" centered=true %}` and paste it in between paragraphs in your `About the Collection` section.
+    - Copy the include code block: `{% raw %}{% include feature/card.html header="This is a Card" text="The card features an image from the collection as a cap" objectid="demo_001" width="25" centered=true %}{% endraw %}` and paste it in between paragraphs in your `About the Collection` section.
     - Edit the following key-value pairs within the code block:
         - `header`
         - `text`
