@@ -13,6 +13,8 @@ Week 2: The Web, Markdown, and Data: [Google Slides](https://docs.google.com/pre
 
 Week 3: CollectionBuilder and Local Development: [Google Slides](https://docs.google.com/presentation/d/1BkUFoDdQwLynXRHVNME7px1d3gkWHnlOI6wXT05WbZ8/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-3-collectionbuilder-local-dev.pdf)
 
+Week 4: Advanced Building and Basic Computational Methods: [Google Slides](https://docs.google.com/presentation/d/1_7TWfbNWmuaBw0hI1MYg4ZpXjhFEzY5BEgyAlaKSMtA/edit?usp=sharing) or [PDF](https://github.com/PULdischo/dsf-static-web/blob/main/content/slideshows/week-4-advanced-building-and-basic-computational-methods.pdf)
+
 ## Git & GitHub
 
 [GitHub](https://github.com/) is a popular web service for hosting Git repositories--with benefits!

@@ -9,11 +9,11 @@ Today, we will further customize our exhibits. In doing so, we will gain a bette
 
 ## Learning Objectives
 
-1. Understand how Jekyll generates your site.
-2. Understand how Jekyll uses the Liquid programming language.
-3. Create new pages using markdown, YAML, and liquid.
-4. Be able to use liquid includes to further customize your pages.
-5. Be able to customize your collection's pages using the different config files.
+- Understand how Jekyll generates your site.
+- Understand how Jekyll uses the Liquid programming language.
+- Create new pages using markdown, YAML, and liquid.
+- Be able to use liquid includes to further customize your pages.
+- Be able to customize your collection's pages using the different config files.
 
 ## More About Jekyll and Site Generation
 
